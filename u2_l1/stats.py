@@ -30,7 +30,7 @@ data = [i.split(',') for i in data]
 
 
 column_names = data[0] # Header
-data_rows = data[1:]   # Rows of data
+data_rows = data[1:]   # Rows
 
 # Load data
 df = pd.DataFrame(data_rows, columns=column_names)
@@ -40,11 +40,12 @@ df['Alcohol'] = df['Alcohol'].astype(float)
 df['Tobacco'] = df['Tobacco'].astype(float)
 
 
+
 features = ['mean', 'median', 'mode', 'range', 
             'variance', 'standard deviation']
 
 
-def result(attr, col):
+def get_feature(attr, col, df):
     if attr == 'mean':
         return df[col].mean()
     if attr == 'median':
@@ -60,7 +61,7 @@ def result(attr, col):
 
 
 for f in features:
-	a = round(result(f, 'Alcohol'), 2)
-	t = round(result(f, 'Tobacco'), 2)
-	print("The {} for the Alcohol and Tobacco dataset is {} for alcohol and {} for tobacco.".format(f, a, t))
-	print()
+    a = round(get_feature(f, 'Alcohol', df), 2)
+    t = round(get_feature(f, 'Tobacco', df), 2)
+    print("The {} for the Alcohol and Tobacco dataset is {} for alcohol and {} for tobacco.".format(f, a, t))
+    print()
