@@ -40,7 +40,6 @@ df['Alcohol'] = df['Alcohol'].astype(float)
 df['Tobacco'] = df['Tobacco'].astype(float)
 
 
-
 features = ['mean', 'median', 'mode', 'range', 
             'variance', 'standard deviation']
 
@@ -63,5 +62,4 @@ def get_feature(attr, col, df):
 for f in features:
     a = round(get_feature(f, 'Alcohol', df), 2)
     t = round(get_feature(f, 'Tobacco', df), 2)
-    print("The {} for the Alcohol and Tobacco dataset is {} for alcohol and {} for tobacco.".format(f, a, t))
-    print()
+    print("The {} for the Alcohol and Tobacco dataset is {} for alcohol and {} for tobacco.\n".format(f, a, t))
