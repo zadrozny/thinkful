@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-Write a script called "chi_squared.py" that loads the data, cleans it, performs the chi-squared test, and prints the result. Push your code to GitHub and enter the link below.
+Write a script called "chi_squared.py" that loads the data, cleans it, 
+performs the chi-squared test, and prints the result. 
 '''
 
 import pandas as pd
