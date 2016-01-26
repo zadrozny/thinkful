@@ -29,7 +29,6 @@ print s.describe()
 
 
 # Boxplot
-import matplotlib.pyplot as plt
 loansData.boxplot(column='Amount.Funded.By.Investors')
 plt.savefig("Lending Club--Amount Funded By Investors--Boxplot.png")
 plt.show()
