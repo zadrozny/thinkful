@@ -41,8 +41,7 @@ ir_tf = loansData['IR_TF'] = loansData['Interest.Rate'].map(
 Statsmodels needs an intercept column in your dataframe, 
 so add a column with a constant intercept of 1.0.
 '''
-intercept = loansData['intercept'] = loansData['Interest.Rate'].map(
-	            lambda x: 1.0)
+intercept = loansData['intercept'] = loansData['Interest.Rate'].map(lambda x: 1.0)
 
 
 '''
@@ -52,6 +51,7 @@ to go ahead and pick the first number to represent the range.
 https://courses.thinkful.com/data-001v2/assignment/2.3.2
 '''
 loansData['FICO.Score'] = loansData['FICO.Range'].map(lambda x: int(x.split('-')[0]))
+
 
 '''
 Create a list of the column names of our independent variables, 
@@ -91,10 +91,8 @@ def logistic_function(FicoScore, LoanAmount, b, a1, a2):
 print(logistic_function(720, 10000, 72.8828, 0.087423, 0.000174))
 
 
-
-
-# Questions:
-# Necessary to transpose?
+# QUESTIONS:
+# Should I be transposing?
 # https://courses.thinkful.com/data-001v2/project/2.3.3
 
 # # # The independent variables shaped as columns
