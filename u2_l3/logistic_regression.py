@@ -46,7 +46,9 @@ intercept = loansData['intercept'] = loansData['Interest.Rate'].map(
 
 
 '''
-Convert FICO scores into a numerical value, and save it in a new column called FICO.Score. Since the ranges are small, we're going to go ahead and pick the first number to represent the range.
+Convert FICO scores into a numerical value, and save it in a new 
+column called FICO.Score. Since the ranges are small, we're going 
+to go ahead and pick the first number to represent the range.
 https://courses.thinkful.com/data-001v2/assignment/2.3.2
 '''
 loansData['FICO.Score'] = loansData['FICO.Range'].map(lambda x: int(x.split('-')[0]))
