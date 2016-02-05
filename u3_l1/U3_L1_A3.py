@@ -43,24 +43,22 @@ plt.show()
 
 # Explore the other data variables. Are there any test stations?
 
-test = sum([1 for s in r.json()['stationBeanList'] if s[u'testStation'] == True])
-
+condition = (df['testStation'] == True)
+test = len(df[condition]['totalDocks'])
 print 'There are {} test stations.'.format(test)
 
 
 # How many stations are "In Service"?
 
-in_service = sum([1 for s in r.json()['stationBeanList'] 
-                    if s[u'statusValue'] == "In Service"])
-
+condition = (df['statusValue'] == 'In Service')
+in_service = len(df[condition]['totalDocks'])
 print 'There are {} stations in service.'.format(in_service)
 
 
 # How many are "Not In Service"?
 
-not_in_service = sum([1 for s in r.json()['stationBeanList'] 
-                        if s[u'statusValue'] == "Not In Service"])
-
+condition = (df['statusValue'] == 'Not In Service')
+in_service = len(df[condition]['totalDocks'])
 print 'There are {} stations not in service.'.format(in_service)
 
 
@@ -70,31 +68,24 @@ print 'There are {} stations not in service.'.format(in_service)
 
 # What is the mean number of bikes in a dock?
 
-availableBikes = sum([s[u'availableBikes'] for s in r.json()['stationBeanList']])
-
-mean = availableBikes / in_service
-
+mean = df['availableBikes'].mean()
 print 'Stations have a mean of {} bikes.'.format(mean)
 
 
 # What is the median?
 
-df = json_normalize(r.json()['stationBeanList'])
-
-# print df['availableBikes'].mean()
 median = df['availableBikes'].median()
-
 print 'Stations have a median of {} bikes.'.format(median)
+
 
 # How does this change if we remove the stations that aren't in service?
 
-# df['availableBikes'] = [row for row in df if row[u'statusValue'] == "In Service"]
+condition = (df['statusValue'] == 'In Service')
+mean = df[condition]['totalDocks'].mean()
 
-# df['availableBikes'].dropna(inplace=True, subset=[df[u'statusValue'] == "Not In Service"])
-df['availableBikes'] = [row[0] for row in zip(df['availableBikes'], df['statusValue']) if row[1] == "In Service"]
+median = df[condition]['totalDocks'].median()
 
-mean = df['availableBikes'].mean()
-median = df['availableBikes'].median()
+print 'The mean and median number of bikes for stations ' \
+       'that are in service is {mean} and {median}, respectively.'.format(mean=mean, median=median)
 
-print 'The mean and median number of bikes for stations \
-       that are in service is {mean} and {median}, respectively'.format(mean=mean, median=median)
+
