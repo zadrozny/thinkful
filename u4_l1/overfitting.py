@@ -1,7 +1,6 @@
 #!/usr/bin/python2
 # -*- coding: utf-8 -*-
 
-
 '''
 https://courses.thinkful.com/data-001v2/project/4.1.4
 
@@ -23,7 +22,6 @@ import matplotlib.pyplot as plt
 # http://stackoverflow.com/a/18623635
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
-
 # Set seed for reproducible results
 np.random.seed(414)
 
@@ -41,23 +39,16 @@ test_df = pd.DataFrame({'X': test_X, 'y': test_y})
 # Linear Fit
 poly_linear = smf.ols(formula='y ~ 1 + X', data=train_df).fit()
 y_actual = test_df['y']
-y_predicted = poly_linear.predict(test_df['X'])
-
-print len(test_df['X'])
-print len(y_predicted)
-
+y_predicted = poly_linear.predict({'X': test_df['X']}) # Pass DF that matches the formula (Kyle's code)
 rms = mean_squared_error(y_actual, y_predicted)
 mas = mean_absolute_error(y_actual, y_predicted)
 r2 = r2_score(y_actual, y_predicted)
 print rms, mas, r2
 
-## Quadratic Fit
+# QUADRATIC FIT
 poly_quadratic = smf.ols(formula='y ~ 1 + X + I(X**2)', data=train_df).fit()
 y_actual = test_df['y']
-y_predicted = poly_quadratic.predict(test_df['X'])
-rms = sqrt(mean_squared_error(y_actual, y_predicted))
-print rms
-
+y_predicted = poly_quadratic.predict({'X': test_df['X']})
 rms = mean_squared_error(y_actual, y_predicted)
 mas = mean_absolute_error(y_actual, y_predicted)
 r2 = r2_score(y_actual, y_predicted)
