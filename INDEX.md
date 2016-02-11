@@ -1,6 +1,6 @@
-INDEX
+# COURSE INDEX
 
-# https://courses.thinkful.com/data-001v2/unit/1
+## https://courses.thinkful.com/data-001v2/unit/1
     Git (version control system)
 	data science
 		applications
@@ -12,7 +12,7 @@ INDEX
     SQLite
 
 
-# https://courses.thinkful.com/data-001v2/lesson/1.1
+## https://courses.thinkful.com/data-001v2/lesson/1.1
 	command line
 	CSV
 	Pandas
@@ -23,7 +23,7 @@ INDEX
 	R (programming language)
 
 
-# https://courses.thinkful.com/data-001v2/assignment/1.1.1	
+## https://courses.thinkful.com/data-001v2/assignment/1.1.1	
 	Anaconda
 	encoding (Unicode)
 	packages
@@ -33,7 +33,7 @@ INDEX
 	Stack Overflow
 
 
-# https://courses.thinkful.com/data-001v2/assignment/1.1.2
+## https://courses.thinkful.com/data-001v2/assignment/1.1.2
 	command line
 	creating and deleting folders
 	directories
@@ -52,7 +52,7 @@ INDEX
     paths (see directories)
 
 
-# https://courses.thinkful.com/data-001v2/assignment/1.1.3
+## https://courses.thinkful.com/data-001v2/assignment/1.1.3
 	iPython
 		tab completion
     mind-mapping
