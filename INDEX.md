@@ -107,6 +107,7 @@
             syntax
         type conversion
 
+
 ## [Unit 1: Lesson 1: Assignment 4: Controlling the Code Flow] (https://courses.thinkful.com/data-001v2/assignment/1.1.4)
     code flow / flow of execution
     control flow operations
@@ -136,6 +137,7 @@
     error conditions
     error types
 
+
 ## [Unit 1: Lesson 1: Assignment 5: Think Like a Coder] (https://courses.thinkful.com/data-001v2/assignment/1.1.5)
     algorithmic thinking
         parallels with food recipes
@@ -147,6 +149,7 @@
     recursion
     fizzbuzz
     Fibonnaci algorithm
+
     
 ## [Unit 1: Lesson 1: Assignment 6: Reading and Writing Files in Python] (https://courses.thinkful.com/data-001v2/assignment/1.1.6)
     files
@@ -170,12 +173,14 @@
         pop()
         iteritems()
 
+
 ## [Unit 1: Lesson 1: Assignment 7: Managing Data with Pandas] (https://courses.thinkful.com/data-001v2/assignment/1.1.7)
     Python
         csv
             reader()
         len()
         pandas
+
 
 ## [Unit 1: Lesson 1: Assignment 8: Installing Sublime Text] (https://courses.thinkful.com/data-001v2/assignment/1.1.7)   
     Integrated Development Environmnet (IDE)
@@ -185,10 +190,12 @@
     SciTE
     Sublime Text
 
+
 ## [Unit 1: Lesson 2: Using Git & Github] (https://courses.thinkful.com/data-001v2/lesson/1.2) 
     Git
     Github
     version control
+
 
 ## [Unit 1: Lesson 2: Assignment 1: Introducing Version Control] (https://courses.thinkful.com/data-001v2/assignment/1.2.1) 
     Git
@@ -200,6 +207,7 @@
     statistics
     interaction design
     computer science
+
 
 ## [Unit 1: Lesson 2: Assignment 2: Up and Running with GitHub] (https://courses.thinkful.com/data-001v2/assignment/1.2.2)
     Git
@@ -213,6 +221,7 @@
         git push
         git pull
 
+
 ## [Unit 1: Lesson 2: Assignment 3: Committing to Git] (https://courses.thinkful.com/data-001v2/assignment/1.2.3)
     Git
         git init
@@ -223,12 +232,14 @@
         .gitignore
     VIM
 
+
 ## [Unit 1: Lesson 3: Working with Databases] (https://courses.thinkful.com/data-001v2/lesson/1.3)
     databases
     relational database
     key values
     SQL
     SQLite
+
 
 ## [Unit 1: Lesson 3: Getting Familiar with SQLite] (https://courses.thinkful.com/data-001v2/assignment/1.3.1)    
     relational database
@@ -253,7 +264,115 @@
     UPDATE cities SET state='Californ-I-A' WHERE state='CA';
     DELETE FROM cities where state='CA';
 
-## [Unit 1: Lesson 3: Assignment 2: Importing Data to SQLite Using Python] (https://courses.thinkful.com/data-001v2/assignment/1.3.1)    
+
+## [Unit 1: Lesson 3: Assignment 2: Importing Data to SQLite Using Python] (https://courses.thinkful.com/data-001v2/assignment/1.3.2)    
     Python
         sqlite3
+            .connect()
+            .connect().cursor()
+            .connect().cursor().execute()
+            .connect().cursor().fetchone()
         pandas
+
+
+## [Unit 1: Lesson 3: Project 3: Joining and Filtering Data in SQLite] (https://courses.thinkful.com/data-001v2/assignment/1.3.3)
+    Python
+        sys
+    SQL
+        INNER JOIN
+        JOIN
+        OUTER JOIN
+        LEFT OUTER JOIN
+        RIGHT OUTER JOIN
+        FULL OUTER JOIN
+        ORDER BY
+        ORDER BY...DESC
+        WHERE
+        HAVING
+        DROP TABLE IF EXISTS
+
+
+## [Unit 2: Analyzing Data] (https://courses.thinkful.com/data-001v2/unit/2)
+    mathematics and statistics, role in data science
+    sources of data science knowledge
+    Stack Overflow
+    probability
+    descriptive analysis of data sets
+    linear and logistic modeling
+    Naive Bayes
+    Time Series Analysis
+    Markov Models
+
+
+## [Unit 2: Lesson 1: Probability and Statistics] (https://courses.thinkful.com/data-001v2/lesson/2.1)
+    probability
+    statistics
+    mean
+    median
+    mode
+    hypothesis testing
+
+
+## [Unit 2: Lesson 1: Project 1: Overview of Statistics] (https://courses.thinkful.com/data-001v2/project/2.1.1)
+    descriptive statistics
+    inferential statistics
+    mean
+    measures of central tendency
+    median
+    mode
+    percentile ranking
+    range
+    relative variability
+    simple ranking
+    standard deviation
+    variance
+    Python
+        list comprehensions
+        pandas
+            astype()
+            max()
+            median()
+            min()
+            mode()
+            std()
+            var()
+        split()
+        splitlines()
+        stats
+            mode()
+    z-score
+
+## [Unit 2: Lesson 1: Assignment 2: Overview of Probability] (https://courses.thinkful.com/data-001v2/project/2.1.2)
+    event
+        dependent
+        independent
+    experiment
+    histogram
+    probability
+    probability distribution
+    random variable
+    expected value
+    Python
+        matplotlib
+            pyplot
+                plot
+                show()
+        mlab
+            normpdf()
+        numpy
+            linspace()
+
+## [Unit 2: Lesson 1: Assignment 3: Hypothesis Testing] (https://courses.thinkful.com/data-001v2/assignment/2.1.3)
+    alpha
+    alternative hypothesis
+    Chi Square test
+    hypothesis testing
+    null hypothesis
+    p value
+    statistical significance
+    Wilcoxon Rank-Sum test
+    
+
+
+
+
