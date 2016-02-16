@@ -185,9 +185,75 @@
     SciTE
     Sublime Text
 
+## [Unit 1: Lesson 2: Using Git & Github] (https://courses.thinkful.com/data-001v2/lesson/1.2) 
+    Git
+    Github
+    version control
 
+## [Unit 1: Lesson 2: Assignment 1: Introducing Version Control] (https://courses.thinkful.com/data-001v2/assignment/1.2.1) 
+    Git
+    version control
+    work flow
+    Git
+    GitHub
+    math
+    statistics
+    interaction design
+    computer science
 
+## [Unit 1: Lesson 2: Assignment 2: Up and Running with GitHub] (https://courses.thinkful.com/data-001v2/assignment/1.2.2)
+    Git
+        initializing 
+        branches
+        git status
+        git init
+        git add
+        git commit
+        git remote add
+        git push
+        git pull
 
+## [Unit 1: Lesson 2: Assignment 3: Committing to Git] (https://courses.thinkful.com/data-001v2/assignment/1.2.3)
+    Git
+        git init
+        git add
+        get remote add origin
+        git push origin master
+        README
+        .gitignore
+    VIM
 
+## [Unit 1: Lesson 3: Working with Databases] (https://courses.thinkful.com/data-001v2/lesson/1.3)
+    databases
+    relational database
+    key values
+    SQL
+    SQLite
 
+## [Unit 1: Lesson 3: Getting Familiar with SQLite] (https://courses.thinkful.com/data-001v2/assignment/1.3.1)    
+    relational database
+    table
+    row
+    field
+    sqlite3
+    creating a database
+    .tables
+    .indices
+    .schema
+    CREATE TABLE
+    INSERT INTO <table> VALUES
+    types
+        text
+        integer
+    SELECT * FROM <table>;
+    SELECT * FROM <table> WHERE [condition]
+    SELECT name FROM cities WHERE name LIKE '%le%';
+    SELECT name FROM cities LIMIT 2 OFFSET 3;
+    SELECT COUNT(*) FROM cities WHERE name LIKE 'San%' AND state='CA';
+    UPDATE cities SET state='Californ-I-A' WHERE state='CA';
+    DELETE FROM cities where state='CA';
 
+## [Unit 1: Lesson 3: Assignment 2: Importing Data to SQLite Using Python] (https://courses.thinkful.com/data-001v2/assignment/1.3.1)    
+    Python
+        sqlite3
+        pandas
