@@ -371,8 +371,57 @@
     p value
     statistical significance
     Wilcoxon Rank-Sum test
-    
 
+## [Unit 2: Lesson 2: Univariate Analysis] (https://courses.thinkful.com/data-001v2/assignment/2.2)
+    univariate analysis
+    probability distributions
+    probability densities
 
+## [Unit 2: Lesson 2: Project 1: Probability Distributions and Densities] (https://courses.thinkful.com/data-001v2/assignment/2.2.1)
+    box plot / box-and-whisker plot
+    distribution
+    histogram
+    probability density
+    probability distribution
+    probability mass
+    Python
+        collection
+            Counter()
+                    iteritems()
+                    values()
+        matplotlib
+            pyplot
+                show
+        numpy
+            random.normal
+            random.uniform
+        scipy
+            stats
+                probplot
+    QQ plot
 
+## [Unit 2: Lesson 2: Project 2: Visualizing Lending Club Data] (https://courses.thinkful.com/data-001v2/assignment/2.2.2)
+    data cleaning / munging
+    matplotlib
+    pandas
+        read_csv()
+            boxplot()
+            dropna()
+            hist()
+    scipy
+        stats
+
+## [Unit 2: Lesson 2: Project 3: Testing Loan Data] (https://courses.thinkful.com/data-001v2/project/2.2.3)
+    goodness of fit
+    signed rank
+    chi-square test
+    Python
+        collections.Counter()
+        pandas
+            read_csv().dropna()
+        matplotlib
+            pyplot
+                figure()
+                bar()
+                show()
 
