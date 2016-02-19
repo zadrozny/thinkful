@@ -342,6 +342,7 @@
             mode()
     z-score
 
+
 ## [Unit 2: Lesson 1: Assignment 2: Overview of Probability] (https://courses.thinkful.com/data-001v2/project/2.1.2)
     event
         dependent
@@ -362,6 +363,7 @@
         numpy
             linspace()
 
+
 ## [Unit 2: Lesson 1: Assignment 3: Hypothesis Testing] (https://courses.thinkful.com/data-001v2/assignment/2.1.3)
     alpha
     alternative hypothesis
@@ -372,10 +374,12 @@
     statistical significance
     Wilcoxon Rank-Sum test
 
+
 ## [Unit 2: Lesson 2: Univariate Analysis] (https://courses.thinkful.com/data-001v2/assignment/2.2)
     univariate analysis
     probability distributions
     probability densities
+
 
 ## [Unit 2: Lesson 2: Project 1: Probability Distributions and Densities] (https://courses.thinkful.com/data-001v2/assignment/2.2.1)
     box plot / box-and-whisker plot
@@ -400,6 +404,7 @@
                 probplot
     QQ plot
 
+
 ## [Unit 2: Lesson 2: Project 2: Visualizing Lending Club Data] (https://courses.thinkful.com/data-001v2/assignment/2.2.2)
     data cleaning / munging
     matplotlib
@@ -410,6 +415,7 @@
             hist()
     scipy
         stats
+
 
 ## [Unit 2: Lesson 2: Project 3: Testing Loan Data] (https://courses.thinkful.com/data-001v2/project/2.2.3)
     goodness of fit
@@ -425,3 +431,171 @@
                 bar()
                 show()
 
+
+## [Unit 2: Lesson 3: Linear Regression and Correlation] (https://courses.thinkful.com/data-001v2/lesson/2.3)
+    correlation
+    linear model
+    linear regression
+    prediction
+
+
+## [Unit 2: Lesson 3: Assignment 1: Overview of Linear Regression] (https://courses.thinkful.com/data-001v2/assignment/2.3.1)
+    variables
+    causation
+    model
+    linear model
+    linear regression
+
+
+## [Unit 2: Lesson 3: Assignment 2: Clean and Plot Data] (https://courses.thinkful.com/data-001v2/assignment/2.3.2)
+    Python
+        lambda functions
+        functions
+        def
+        map()
+        filter()
+        reduce()
+        matplotlib.pyplot()
+        pandas.DataFrame().hist()
+        pandas.scatter_matrix(DF, alpha, figsize)
+    bell curve / normal distribution / Gaussian distribution
+    scatterplot matrix
+    histogram
+
+
+## [Unit 2: Lesson 3: Project 3: Linear Regression Analysis] (https://courses.thinkful.com/data-001v2/project/2.3.3)
+    linear model
+    Python
+        numpy.column_stack([x1, x2])
+        numpy.matrix().transpose()
+        statsmodels.api.add_constant()
+        statsmodels.api.OLS().fit().summary()
+    p-value
+    R-squared
+
+
+## [Unit 2: Lesson 4: Logistic Regression] (https://courses.thinkful.com/data-001v2/lesson/2.4)
+    linear regression
+    continuous response, continuous input
+    categories
+    logistic regression
+
+
+## [Unit 2: Lesson 4: Assignment 1: Logistic Regression Overview] (https://courses.thinkful.com/data-001v2/assignment/2.4.1)
+    linear regression
+    logistic regression
+    independent variable
+    dependent variable
+    odds
+    odds ratios
+    exponential and logarithmic functions
+
+
+## [Unit 2: Lesson 4: Assignment 2: Data Cleaning] (https://courses.thinkful.com/data-001v2/assignment/2.4.2)
+    Python
+        pandas.DataFrame.to_csv(file.csv, header=<True/False>, index=<True/False>)
+        statsmodels
+
+
+## [Unit 2: Lesson 4: Project 3: Logistic Regression Analysis] (https://courses.thinkful.com/data-001v2/project/2.4.3)
+    logistic regression
+    logistic function
+    Python
+        statsmodels.Logit(DataFrame[<independent variable>], DataFrame[<dependent variable>]).fit().params
+
+
+## [Unit 2: Lesson 5: Multivariate Analysis] (https://courses.thinkful.com/data-001v2/lesson/2.5)
+    multivariate analysis
+
+
+## [Unit 2: Lesson 5: Assignment 1: Overview of Multivariate Analysis] (https://courses.thinkful.com/data-001v2/assignment/2.5.1)    
+    multivariate analysis
+    iPython notebook
+    correlation matrix
+    lattice graphs
+    R-squared
+    Akaike's Information Criterion (AIC)
+    Bayesian Information Criterion (BIC)
+    overfitting
+    collinearity
+    interaction (multiplicative effect)
+    confounding factors
+    multiple regression
+
+
+## [Unit 2: Lesson 5: Project 2: Multivariate Analysis of Loan Data] (https://courses.thinkful.com/data-001v2/project/2.5.2)  
+
+
+## [Unit 2: Lesson 6: Introduction to Time-Series Analysis] (https://courses.thinkful.com/data-001v2/lesson/2.6)
+    independent and identically distributed
+    time-series
+    time-series analysis
+
+
+## [Unit 2: Lesson 6: Assignment 1: Overview of Time-Series Analysis] (https://courses.thinkful.com/data-001v2/assignment/2.6.1)
+    exponential smoothing
+    Holt-Winters method
+    moving average
+    randome noise ("e")
+    seasonal component ("s")
+    series ("Y")
+    time series
+    trend ("m")
+    weighted average
+    Y=m+s+e
+
+
+## [Unit 2: Lesson 6: Assignment 2: ARIMA Analysis with Loan Data] (https://courses.thinkful.com/data-001v2/assignment/2.6.2)
+    Auto-Regressive Integrated Moving Average
+    stationary time series
+    Python
+        datetime
+        pandas
+            to_datetime(df[<column>]) 
+            DataFrame.set_index(') 
+            DataFrame.groupby(lambda x : x.year * 100 + x.month).count()
+
+
+## [Unit 2: Lesson 6: Project 3: Plot Auto-Correlation in Loan Data] (https://courses.thinkful.com/data-001v2/project/2.6.3)
+    autocorrellation function (ACF)
+    partial autocorrellation function (PACF)
+    confidence limits
+    Python
+        statsmodels.api.graphics.tsa.plot_acf()
+        statsmodels.api.graphics.tsa.plot_pacf()
+
+
+## [Unit 2: Lesson 7: Naive Bayes] (https://courses.thinkful.com/data-001v2/lesson/2.7)
+    Bayes' Theorem
+    Naive Bayes classifiers
+    prior probability
+    posterior probability
+    conditional probability
+
+
+## [Unit 2: Lesson 7: Assignment 1: Naive Bayes Overview] (https://courses.thinkful.com/data-001v2/assignment/2.7.1)
+    Bayesian inference
+    conditional probability
+    evidence
+    posterior probability
+    prior probability
+
+## [Unit 2: Lesson 7: Assignment 2: Naive Bayes Theorem] (https://courses.thinkful.com/data-001v2/assignment/2.7.2)
+
+
+## [Unit 2: Lesson 8: Introduction to Markov Models] (https://courses.thinkful.com/data-001v2/lesson/2.8)
+    Markov model
+    Markov process
+    Markov assumption / property
+
+
+## [Unit 2: Lesson 8: Assignment 1: Overview of Markov Models] (https://courses.thinkful.com/data-001v2/assignment/2.8.1)
+    Markov process
+    transition probability
+    square matrix (to represent Markov processes)
+    Python
+        Pandas
+            DataFrame
+                dot(DF)
+    steady state
+    recurrent or transient nodes
