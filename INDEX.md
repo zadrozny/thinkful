@@ -580,6 +580,7 @@
     posterior probability
     prior probability
 
+
 ## [Unit 2: Lesson 7: Assignment 2: Naive Bayes Theorem] (https://courses.thinkful.com/data-001v2/assignment/2.7.2)
 
 
@@ -599,3 +600,62 @@
                 dot(DF)
     steady state
     recurrent or transient nodes
+
+
+## [Unit 3: Answering Questions with Data] (https://courses.thinkful.com/data-001v2/unit/3)
+    API
+    best practices
+    Mason, Hilary
+    Wiggins, Chris
+    OSEMN ("Obtain, Scrub, Explore, Model, and iNterpret")
+    scraping
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## [Unit 4: Lesson 7: Naive Bayes] (https://courses.thinkful.com/data-001v2/lesson/4.3)
+    classification model
+    Naive Bayes classifier
+    Bayes Theorem
+
+## [Unit 4: Lesson 7: Assignment 1] (https://courses.thinkful.com/data-001v2/lesson/4.3.1)
+    naive Bayes
+    maximum a posteriori (MAP)
+    posterior probability
+    conditional probability
+    prior probability
+    evidence
+    Bayesian inference
+
