@@ -1,0 +1,49 @@
+Descriptive analysis of NYC language communities (any predictions possible?)
+Predicting pronunciation errors
+Optimal Forager
+
+
+Capstone idea:
+	Pronunciation error prediction
+		Potential models:
+			English IPA transcriptions from Wiktionary
+			Language model from Wikipedia
+
+			Purely statistical
+
+		Potential data sources:
+			collect recordings, do speech to text with a commercial software
+			ISLE corpus?
+
+		Prediction:
+			a) count wrongly transcribed words as misprounounced
+			b) speech to IPA: count wrongly transcribed phonemes
+
+
+
+Projects he's seen: good, bad, how long did they take
+
+Review Time Series
+
+What he's working on
+
+
+
+
+***
+Errors due to transcription have high magnitude
+A lot of corpuses are very groomed
+
+
+
+Data merging problem
+Optimizing will bring a very boring menu
+
+
+Predicting whether an entry needs cleenup
+
+
+
+Phonetic profiles of languages
+	[Send Kyle Wiktionary dataset]
+	http://www.bothsidesofthetable.com/
