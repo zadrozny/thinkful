@@ -61,16 +61,18 @@ To adjust for this, I produced a "capped" subset of the data, with an even numbe
 
 Mean F1 scores for the respective models, on all the data as well as the capped data, were:
 
-                All Data    Capped
-Random Forest   0.280673    0.451411
-Naive Bayes     0.438868    0.429971
+|             |   All Data |   Capped  |
+|-------------|:----------:|----------:|
+|Random Forest|   0.280673 |   0.451411|
+|Naive Bayes  |   0.438868 |   0.429971|
 
 
 The best F1 scores for the respective models, on all the data as well as the capped data, were:
 
-                All Data    Capped
-Random Forest   0.334179    0.483073
-Naive Bayes     0.327057    0.449479
+|             | All Data |  Capped   |
+|-------------|:--------:|----------:|
+|Random Forest|  0.334179|   0.483073|
+|Naive Bayes  |  0.327057|   0.449479|
 
 
 
